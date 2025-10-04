@@ -1,0 +1,52 @@
+/* Remove underline on mobile & stack buttons */
+@media (max-width: 376px) {
+
+    /* Hide underline image */
+    .underline-img {
+        display: none !important;
+    }
+
+    /* Stack buttons vertically */
+    .button-container {
+        flex-direction: column !important;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Ensure no underline anywhere */
+    button,
+    a {
+        text-decoration: none !important;
+    }
+
+    .heroPara {
+        line-height: 2 !important;
+        font-weight: 600;
+    }
+
+    /* Increase button size */
+    .button-container button {
+        font-size: 1rem !important;
+        padding: 0.7rem 1.4rem !important;
+    }
+
+    /* Increase image size */
+    img[alt="girlImg"] {
+        width: 16rem !important;
+    }
+
+    /* ✅ Rating Badge (move to top-right neatly) */
+    .rating-badge-mobile {
+        top: 1rem !important;
+        right: 0.5rem !important;
+        left: auto !important;
+        transform: scale(1.1);
+    }
+
+    /* ✅ Resume Count Badge (move slightly up and inward) */
+    .resume-count-badge {
+        bottom: 1.5rem !important;
+        right: 0.5rem !important;
+        transform: scale(1.1);
+    }
+}
