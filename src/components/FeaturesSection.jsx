@@ -34,11 +34,11 @@ const FeaturesSection = () => {
 
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16">
-          <div className="inline-block bg-pink-100 text-pink-600 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-semibold mb-3 sm:mb-4">
+          <div className="inline-block bg-pink-100 text-black px-5 sm:px-4 py-3 sm:py-2 rounded-b-sm text-sm sm:text-sm font-semibold mb-3 sm:mb-4">
             What You Get
           </div>
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 leading-tight max-w-3xl mx-auto">
-            You're Not Just Another Applicant And Your Resume Shouldn't Look Like One
+          <h2 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800 leading-tight max-w-3xl mx-auto">
+            You're Not Just  <span className="text-pink-600">Another Applicant</span> And Your Resume Shouldn't Look Like One
           </h2>
         </div>
 
